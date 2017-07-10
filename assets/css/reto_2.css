@@ -1,0 +1,83 @@
+body{
+	background-color: lightblue;
+	margin:0;
+}
+.cvanderland{
+	width: 1024px;
+	height: 243px;
+	background: url('../img/fondo.png');
+	position: absolute;
+	left:0;
+	bottom: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.container{
+	height: 100vh;
+	width: 100vw;
+/*	background-position: center bottom;
+	background-repeat: no-repeat;*/
+}
+
+.cvander{
+	/*background:red;*/
+	width: 166px;
+	height: 171px;
+	position: absolute;
+	left: 0;
+	bottom:0;
+	overflow: hidden;
+	transition:.3s;
+	/*animation: 1s cvander infinite;*/
+}
+
+
+@keyframes cvander{
+	/*from{
+		border:1px solid red;
+	}
+	to{
+		border: 10px solid green;
+	}*/
+	50%{
+		transform: translateY(5px) rotate(2deg);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+
+}
+
+.cvander:hover{
+	/*background:blue;*/
+}
+
+.cvander:hover .cvander-header{
+	/*transform:translateY(5px);*/
+	animation: .5s cvander infinite;
+}
+
+.cvander:hover .cvander-ipad{
+	transform:rotate(-7deg);
+}
+
+.cvander-body{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.cvander-header{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition:.3s;
+}
+
+.cvander-ipad{
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+	transition:.2s;
+}

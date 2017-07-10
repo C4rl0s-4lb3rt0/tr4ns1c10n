@@ -1,0 +1,205 @@
+body{
+	background-color: peru;
+	font-family: sans-serif;
+	perspective:1000px;
+}
+
+.post{
+	border:18px solid red;
+	background: white;
+	padding: 20px;
+	text-align: center;
+	transition:.2s;
+	overflow: hidden;
+
+}
+
+.post:hover{
+	background: skyblue;
+}
+
+img, p{
+	transition:1s;
+}
+
+.post img{
+	transform: translateY(-300px);
+}
+
+.post:hover img {
+	transform:scale(1.2);
+}
+
+.post p {
+	transform: translateY(200px);
+}
+
+.post:hover p{
+	transform: translateY(0);
+}
+
+
+
+.contenedor{
+	margin: 0 auto;
+	width:600px;
+	font-family: sans-serif;
+}
+
+.transicion{
+	transition: .3s;
+/*	transition-duration:3s;
+	transition-property:opacity;
+	transition-timing-function:ease;*/
+}
+
+.caja{
+	width:100px;
+	height: 100px;
+	border:1px solid red;
+}
+
+.opacity{
+	opacity: 0;
+}
+.opacity:hover{
+	opacity: 1;
+}
+
+.fuente:hover{
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.colores:hover{
+	color:red;
+	background:yellow: 
+}
+
+
+
+.rotacion:hover{
+	transform:rotate(360deg);
+}
+
+.escala:hover{
+	transform:scale(2);
+}
+
+.sesgado:hover{
+	transform:skew(45deg);	
+}
+
+.traslacion:hover{
+	transform:translateZ(50px);
+}
+
+
+.mixtas:hover{
+	transform: rotate(360deg) scale(3) skew(10deg) translateZ(10px);
+}
+
+
+.flip3d{
+	width:100px;
+	height: 100px;
+	margin: 10px;
+	float:left;
+}
+
+.back img{
+	width:100%;
+}
+
+.flip3d > .front {
+	position: absolute;
+	-webkit-transform: perspective(600px) rotateY(0deg);
+	
+	transform: perspective(600px) rotateY(0deg);
+	
+	background: #FC0;
+	width:100px;
+	height: 100px;
+	border-radius: 7px;
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	transition: transform .5s linear 0s; 
+}
+
+
+.flip3d > .back{
+	position: absolute;
+	-webkit-transform: perspective(600px) rotateY(180deg);
+	transform: perspective(600px) rotateY(180deg);
+	background: #80DFFF;
+	width:100px;
+	height: 100px;
+	border-radius: 7px;
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	-webkit-transition: transform .5s linear 0s;
+	transition: transform .5s linear 0s; 
+}
+
+
+.flip3d:hover > .front {
+	-webkit-transform: perspective(600px) rotateY(-180deg);
+	/*transform: perspective(600px) rotateY(-100deg);	*/
+	 transform: translateX(230px);
+}
+
+.flip3d:hover > .back {
+	-webkit-transform: perspective(600px) rotateY(0deg);	
+	transform: perspective(600px) rotateY(0deg);	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

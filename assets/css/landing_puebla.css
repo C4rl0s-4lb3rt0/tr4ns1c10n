@@ -1,0 +1,124 @@
+
+
+img{
+	height: 100%;
+    width:100%;
+    max-width:600px;
+
+}
+
+
+
+.fondo{
+	background-image: url(../img/puebla.jpg); 
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+
+}
+
+.kubo_view{
+	background-color: #F48E2A;
+	font-size: 30px;
+	font-style: italic;
+	color:white;
+}
+
+.kubo_view_mess{
+	background-color: #F48E2A;
+	font-size: 20px;
+	font-style: italic;
+	color:white;
+}
+
+.principal_kubo{
+	padding-right: 0;
+	padding-left: 0;
+
+}
+.ayuda_lada{
+	padding-top: 5px;	
+	padding-left: 0;
+}
+
+#lada_color_puebla{
+	color: #6cceb4;
+}
+
+
+
+#viewport_puebla{
+	color: white;
+	background: #696969;
+}
+
+
+
+.instructions{
+	background: #FFFFFF;
+	color: #999;
+	font-size: 22px;
+}
+
+.graybox{
+  background: #e3e0e1;
+}
+.graybox p{
+	color:#7f7f7f;
+	font-size: 25px;
+ 	line-height: 27px;
+  	word-spacing: 1px;
+  	letter-spacing: 3px;
+}
+
+.textshowroom{
+	background: #FFFFFF;
+	color:#1DB9B2;
+	font-size: 25px;
+	font-style: oblique;
+}
+.tip_big{
+	font-size: 35px;
+}
+.link_ara{
+	font-color: #FFFFFF;
+	font-size: 22px;
+}
+.estado{
+	color: white;
+	font-size: 40px;
+	font-style: italic;
+    text-align: center;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+
+
+.esrlogo{
+	width: 190px;
+    height: 130px;
+}
+
+.logo_corp_ara{
+	width: 250px;
+    height: 60px;
+}
+
+.casas_ara{
+	width:200px; 
+	height:120px;
+}
+.fondo_landing_gris{
+	background-color:#f3f3f3;
+}
+.links{
+	color: #6cceb4;
+}
+.link_ara{
+	color:#FFFFFF;
+
+}
+.logo_ara_puebla{
+	width:200px; 
+	height:200px;
+}

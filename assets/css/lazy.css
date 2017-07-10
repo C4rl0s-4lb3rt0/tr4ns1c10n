@@ -1,0 +1,38 @@
+body{
+	background: gray;
+}
+
+h1{
+	color: blue
+}
+
+img{
+	/*border:1px solid red;*/
+	transition: 2s;
+	opacity:0;
+	object-fit:cover;
+	width: 100%;
+	position: relative;
+	/*left: -40%;*/
+
+	transform: rotate(360deg);
+}
+
+img.b-loaded{
+	opacity:1;
+	/*left: 0;*/
+
+
+	transform: rotate(0deg);
+}
+
+figure{	
+	/*border:1px solid red;*/
+	background-image: url('../img/gears.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+

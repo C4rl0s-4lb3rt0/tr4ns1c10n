@@ -1,0 +1,20 @@
+#viewport{
+	background: #3cf;
+}
+#viewport_facebook{
+	background: #4B6DAA;
+}
+img{
+	height: 100%;
+    width:100%;
+    max-width:600px;
+
+}
+#img_prin{
+	width:100%;
+	height: 100%;
+}
+
+.logo{
+	width:70px;
+}
